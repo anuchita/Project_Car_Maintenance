@@ -4480,6 +4480,34 @@ small {
   }
 }
 
+/* - - - - - LIKE */
+#like {
+  bottom: -65px;
+}
+#like:not(:checked) > label {
+  cursor:pointer;
+  float: right;
+  width: 30px;
+  height: 30px;
+  display: block;
+  
+  color: rgba(233, 54, 40, .4);
+  line-height: 33px;
+  text-align: center;
+}
+#like:not(:checked) > label:hover,
+#like:not(:checked) > label:hover ~ label {
+  color: rgba(233, 54, 40, .6);
+}
+ {
+  color: rgba(233, 54, 40, .8);
+}
+#like > input:checked ~ label {
+  color: rgb(233, 54, 40);
+}
+
+/* - - - - - LIKE */
+
 .scale-transition {
   transition: -webkit-transform 0.3s cubic-bezier(0.53, 0.01, 0.36, 1.63) !important;
   transition: transform 0.3s cubic-bezier(0.53, 0.01, 0.36, 1.63) !important;
@@ -6749,6 +6777,9 @@ select:disabled {
 
 /* Range
    ========================================================================== */
+
+
+
 .range-field {
   position: relative;
 }
