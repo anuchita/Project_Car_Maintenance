@@ -796,7 +796,7 @@
 }
 
 .light-blue.lighten-1 {
-  background-color: #29b6f6 !important;
+  background-color: #A2AAB0 !important;
 }
 
 .light-blue-text.text-lighten-1 {
@@ -1656,7 +1656,7 @@
 }
 
 .orange-text {
-  color: #ff9800 !important;
+  color: #4C586F  !important;
 }
 
 .orange.lighten-5 {
@@ -2159,6 +2159,7 @@ html {
  */
 body {
   margin: 0;
+  background-color: #EBECED;
 }
 
 /* HTML5 display definitions
