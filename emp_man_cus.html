@@ -9,6 +9,20 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <style>
+table, th, td {
+    border: 1px solid black;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color:   #696969;
+    color: white;
+</style>
 </head>
 
 
@@ -50,7 +64,7 @@
 <div class="row">
     <form class="container">
       
-      <table style="width:100%">
+      <table id="t01" style="width:100%">
   <tr>
     <th>Name</th>
     <th>Tel</th> 
